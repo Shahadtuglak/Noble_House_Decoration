@@ -28,10 +28,6 @@ nav {
   border: 1px solid red !important;
 }
 
-.navbar-brand {
-  font-size: large;
-  padding: 0 1rem 0 1rem;
-}
 h1,
 h4 {
   font-family: "Montserrat", sans-serif;
@@ -72,4 +68,20 @@ h4 {
   font-weight: bold !important;
   text-shadow: 3px 0px 7px rgba(81, 67, 21, 0.8),
     -3px 0px 7px rgba(81, 67, 21, 0.8), 0px 4px 7px rgba(81, 67, 21, 0.8) !important;
+}
+
+/* Media */
+
+@media screen and (min-width: 1024px) {
+  .navbar-brand {
+    font-size: large;
+    padding: 0 1rem 0 1rem !important;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .navbar-brand {
+    font-size: large;
+    padding: 1px !important;
+  }
 }
