@@ -31,6 +31,9 @@ h4 {
   font-family: "Montserrat", sans-serif;
   text-align: center;
 }
+h3 {
+  font-family: "Montserrat", sans-serif;
+}
 
 .showcase {
   background: url("sh2.jpg") no-repeat center center fixed;
@@ -122,15 +125,14 @@ hr {
     justify-content: space-around;
     padding-top: 2rem;
   }
-  .map {
-    height: 300px;
+
+  iframe {
+    height: 350px;
     width: 450px;
-    background-color: green;
-    width: 45%;
   }
   .contactinfo {
     width: 45%;
-    padding-top: 1rem;
+    /* padding-top: 1rem; */
   }
 
   hr {
@@ -163,11 +165,10 @@ hr {
     justify-content: space-around;
     padding-top: 2rem;
   }
-  .map {
-    height: 300px;
-    width: 550px;
-    background-color: green;
-    width: 45%;
+  iframe {
+    height: 400px;
+    width: 400px;
+    margin-right: 1rem;
   }
   .contactinfo {
     width: 45%;
@@ -196,10 +197,10 @@ hr {
   .contactus .container {
     padding-top: 2rem;
   }
-  .map {
+  .map,
+  iframe {
     height: 300px;
     width: 100%;
-    background-color: green;
   }
   .contactinfo {
     padding-top: 1rem;
