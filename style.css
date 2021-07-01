@@ -84,6 +84,50 @@ h2 {
   color: black !important;
   padding-bottom: 12rem !important;
 }
+.btn:hover {
+  background: white !important;
+  color: black !important;
+}
+
+.card-img-top {
+  height: 300px !important;
+  width: 80% !important;
+  text-align: center;
+  align-items: center;
+}
+.card {
+  margin: 40px;
+  text-align: center;
+  align-items: center;
+}
+
+.card:hover {
+  box-shadow: 0px 10px 50px rgba(0, 0, 0, 0.9);
+}
+
+.worksection1,
+.worksection2,
+.worksection3,
+.worksection4 {
+  height: 25rem;
+  width: 70%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.worksection1 {
+  background-image: url("sh2.jpg");
+}
+.worksection2 {
+  background-image: url("sh2.jpg");
+}
+.worksection3 {
+  background-image: url("sh2.jpg");
+}
+.worksection4 {
+  background-image: url("sh2.jpg");
+}
 
 /* font-weight: bold !important; */
 /* text-shadow: 3px 0px 7px rgba(81, 67, 21, 0.8),
