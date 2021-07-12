@@ -299,8 +299,8 @@ hr {
   }
   #about {
     height: 60vh;
+    margin: 10px 10px 40px 10px;
     text-align: left;
-    margin: 1rem;
   }
   .wrapper {
     width: 100%;
