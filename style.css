@@ -167,6 +167,7 @@ hr {
   /* Gallery */
   .wrapper {
     max-width: 80rem;
+    height: 100vh;
     padding: 2rem;
     margin: 0 auto;
   }
@@ -300,7 +301,6 @@ hr {
     height: 60vh;
     text-align: left;
     margin: 1rem;
-    margin-bottom: 1rem;
   }
   .wrapper {
     width: 100%;
