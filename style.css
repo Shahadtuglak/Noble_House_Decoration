@@ -93,10 +93,8 @@ h6 {
 .card:hover {
   box-shadow: 0px 10px 50px rgba(0, 0, 0, 0.9);
 }
-.gallery-image:hover{
+.gallery-image:hover {
   box-shadow: 0px 10px 50px rgba(0, 0, 0, 0.9);
-
-
 }
 
 footer {
@@ -115,19 +113,16 @@ footer a {
   padding: 10px;
 }
 
-.social{
+.social {
   display: flex;
   align-items: center;
-  
+
   justify-content: center;
-  
-  
 }
-.social-icon{
+.social-icon {
   height: 50px;
   width: 50px;
-  margin: 2rem ;
-  
+  margin: 2rem;
 }
 
 hr {
@@ -305,6 +300,7 @@ hr {
     height: 60vh;
     text-align: left;
     margin: 1rem;
+    margin-bottom: 1rem;
   }
   .wrapper {
     width: 100%;
